@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<testsuite name="Cucumber" time="27.96" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-07-03T04:33:43.927Z">
+  <testcase classname="User Authentication tests" name="Login should be success" time="5.455">
+    <system-out><![CDATA[Given User navigates to the application.....................................passed
+And User click the Account menu.............................................passed
+And User click on the login link............................................passed
+And User enter the email as "demo1.123@gmail.com"...........................passed
+And User enter the password as "Demo@123"...................................passed
+When User click on the login button.........................................passed
+Then My Account should be displayed.........................................passed]]></system-out>
+  </testcase>
+  <testcase classname="User Authentication tests" name="Login should not be success" time="12.534">
+    <system-out><![CDATA[Given User navigates to the application.....................................passed
+And User click the Account menu.............................................passed
+And User click on the login link............................................passed
+And User enter the email as "demo1.123@gmail.com"...........................passed
+And User enter the empty password as "".....................................passed
+When User click on the login button.........................................passed
+Then Login should be unsuccessful...........................................passed]]></system-out>
+  </testcase>
+  <testcase classname="User Registration tests" name="Valid registration" time="4.721">
+    <system-out><![CDATA[Given User navigated to the application.....................................passed
+And User clicks the Account menu............................................passed
+And User click on the register link.........................................passed
+And User enter the first name as "Harini"...................................passed
+And User enter the last name as "Raja"......................................passed
+And User enter the Email as "hariniraja29@gmail.com"........................passed
+And User enter the telephone as "9865204120"................................passed
+And User enter the Password as "harini".....................................passed
+And User enter the conform password as "harini".............................passed
+And User click the policy check box.........................................passed
+When User click on the continue button......................................passed
+Then success should be displayed............................................passed]]></system-out>
+  </testcase>
+  <testcase classname="User Registration tests" name="Register with an existing email" time="5.224">
+    <system-out><![CDATA[Given User navigated to the application.....................................passed
+And User clicks the Account menu............................................passed
+And User click on the register link.........................................passed
+And User enter the first name as "Harini"...................................passed
+And User enter the last name as "Raja"......................................passed
+And User enter the Email as "hariniraja29@gmail.com"........................passed
+And User enter the telephone as "7639704120"................................passed
+And User enter the Password as "harini".....................................passed
+And User enter the conform password as "harini".............................passed
+And User click the policy check box.........................................passed
+When User click on the continue button......................................passed
+Then Existing account warning should be displayed...........................passed]]></system-out>
+  </testcase>
+</testsuite>
