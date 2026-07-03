@@ -8,7 +8,7 @@ Feature: User Registration tests
     Scenario: Valid registration
         And User enter the first name as "Harini"
         And User enter the last name as "Raja"
-        And User enter the Email as "hariniraja39@gmail.com"
+        And User enter the Email as "hariniraja36@gmail.com"
         And User enter the telephone as "9865204120"
         And User enter the Password as "harini"
         And User enter the conform password as "harini"
@@ -19,7 +19,7 @@ Feature: User Registration tests
     Scenario: Register with an existing email
         And User enter the first name as "Harini"
         And User enter the last name as "Raja"
-        And User enter the Email as "hariniraja39@gmail.com"
+        And User enter the Email as "hariniraja36@gmail.com"
         And User enter the telephone as "7639704120"
         And User enter the Password as "harini"
         And User enter the conform password as "harini"

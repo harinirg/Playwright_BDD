@@ -10,7 +10,7 @@ report.generate({
       name: "chrome",
       version: "118",
     },
-device: "Mythily - Machine",
+device: "Harini - Machine",
     platform: {
       name: "Windows",
       version: "11",
