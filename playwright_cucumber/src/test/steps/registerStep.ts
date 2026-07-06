@@ -26,7 +26,7 @@ When("user enters last name {string}", async function (this:CustomWorld, lname: 
 
 When('user enters email {string}', async function (this: CustomWorld, email:string) {
   if (email==='dynamic') {
-    email = `sownd${Date.now()}@gmail.com`;
+    email = `Harini${Date.now()}@gmail.com`;
   }
 
   await this.registerPage.registeremail(email);
