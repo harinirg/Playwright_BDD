@@ -1,0 +1,435 @@
+[2026-07-03T11:12:50.473Z]INFO-Launching browser
+[2026-07-03T11:12:50.477Z]INFO-Launching browser
+[2026-07-03T11:12:50.832Z]INFO-Starting Scenario: Login should be successful
+[2026-07-03T11:12:50.834Z]INFO-Starting Scenario: Login should not be successful
+[2026-07-03T11:12:51.048Z]INFO-Navigating to TutorialsNinja
+[2026-07-03T11:12:51.049Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-03T11:12:51.054Z]INFO-Navigating to TutorialsNinja
+[2026-07-03T11:12:51.055Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-03T11:13:44.472Z]ERROR-Scenario FAILED: Login should be successful
+[2026-07-03T11:13:48.222Z]ERROR-Scenario FAILED: Login should not be successful
+[2026-07-03T11:13:48.260Z]INFO-Closing browser
+[2026-07-03T11:13:48.260Z]INFO-Closing browser
+[2026-07-03T11:14:00.557Z]INFO-Launching browser
+[2026-07-03T11:14:00.557Z]INFO-Launching browser
+[2026-07-03T11:14:00.900Z]INFO-Starting Scenario: Login should not be successful
+[2026-07-03T11:14:00.901Z]INFO-Starting Scenario: Login should be successful
+[2026-07-03T11:14:01.114Z]INFO-Navigating to TutorialsNinja
+[2026-07-03T11:14:01.115Z]INFO-Navigating to TutorialsNinja
+[2026-07-03T11:14:01.115Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-03T11:14:01.115Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-03T11:14:04.445Z]INFO-Opening Login Page
+[2026-07-03T11:14:04.449Z]INFO-Clicking:locator('i.fa.fa-user')
+[2026-07-03T11:14:04.529Z]INFO-login click
+[2026-07-03T11:14:04.530Z]INFO-Clicking:getByRole('link', { name: 'Login' })
+[2026-07-03T11:14:05.197Z]INFO-Filling:getByRole('textbox', { name: 'E-Mail Address' })=>{value}
+[2026-07-03T11:14:05.234Z]INFO-Filling:getByRole('textbox', { name: 'Password' })=>{value}
+[2026-07-03T11:14:05.253Z]INFO-Clicking:locator('input.btn.btn-primary')
+[2026-07-03T11:14:06.434Z]INFO-Opening Login Page
+[2026-07-03T11:14:06.438Z]INFO-Clicking:locator('i.fa.fa-user')
+[2026-07-03T11:14:06.512Z]INFO-login click
+[2026-07-03T11:14:06.514Z]INFO-Clicking:getByRole('link', { name: 'Login' })
+[2026-07-03T11:14:06.802Z]INFO-Filling:getByRole('textbox', { name: 'E-Mail Address' })=>{value}
+[2026-07-03T11:14:06.837Z]INFO-Filling:getByRole('textbox', { name: 'Password' })=>{value}
+[2026-07-03T11:14:06.851Z]INFO-Clicking:locator('input.btn.btn-primary')
+[2026-07-03T11:14:11.545Z]INFO-Closing browser
+[2026-07-03T11:14:11.545Z]INFO-Closing browser
+[2026-07-05T08:25:02.242Z]INFO-Launching browser
+[2026-07-05T08:25:02.243Z]INFO-Launching browser
+[2026-07-05T08:25:03.259Z]INFO-Starting Scenario: User should register successfully
+[2026-07-05T08:25:03.260Z]INFO-Starting Scenario: exist user register not successful
+[2026-07-05T08:25:03.518Z]INFO-Navigating to TutorialsNinja
+[2026-07-05T08:25:03.519Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-05T08:25:03.546Z]INFO-Navigating to TutorialsNinja
+[2026-07-05T08:25:03.547Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-05T08:25:28.037Z]INFO-Myaccount button click
+[2026-07-05T08:25:28.038Z]INFO-Myaccount button click
+[2026-07-05T08:25:28.039Z]INFO-Clicking:locator('//span[text()=\'My Account\']')
+[2026-07-05T08:25:28.040Z]INFO-Clicking:locator('//span[text()=\'My Account\']')
+[2026-07-05T08:25:28.133Z]INFO-login click
+[2026-07-05T08:25:28.133Z]INFO-login click
+[2026-07-05T08:25:28.133Z]INFO-Clicking:locator('//a[text()=\'Register\']')
+[2026-07-05T08:25:28.133Z]INFO-Clicking:locator('//a[text()=\'Register\']')
+[2026-07-05T08:25:28.427Z]INFO-Filling:locator('#input-firstname')=>{value}
+[2026-07-05T08:25:28.453Z]INFO-Filling:locator('#input-firstname')=>{value}
+[2026-07-05T08:25:28.564Z]INFO-Filling:locator('#input-lastname')=>{value}
+[2026-07-05T08:25:28.581Z]INFO-Filling:locator('#input-email')=>{value}
+[2026-07-05T08:25:28.598Z]INFO-Filling:locator('#input-telephone')=>{value}
+[2026-07-05T08:25:28.612Z]INFO-Filling:locator('#input-password')=>{value}
+[2026-07-05T08:25:28.629Z]INFO-Filling:locator('#input-confirm')=>{value}
+[2026-07-05T08:25:28.705Z]INFO-Filling:locator('#input-lastname')=>{value}
+[2026-07-05T08:25:28.708Z]INFO-Clicking:locator('input[value=\'Continue\']')
+[2026-07-05T08:25:28.728Z]INFO-Filling:locator('#input-email')=>{value}
+[2026-07-05T08:25:28.745Z]INFO-Filling:locator('#input-telephone')=>{value}
+[2026-07-05T08:25:28.760Z]INFO-Filling:locator('#input-password')=>{value}
+[2026-07-05T08:25:28.778Z]INFO-Filling:locator('#input-confirm')=>{value}
+[2026-07-05T08:25:28.848Z]INFO-Clicking:locator('input[value=\'Continue\']')
+[2026-07-05T08:25:30.993Z]INFO-Closing browser
+[2026-07-05T08:25:30.993Z]INFO-Closing browser
+[2026-07-06T02:46:30.818Z]INFO-Launching browser
+[2026-07-06T02:46:30.794Z]INFO-Launching browser
+[2026-07-06T02:46:32.064Z]INFO-Starting Scenario: Login should not be successful
+[2026-07-06T02:46:32.064Z]INFO-Starting Scenario: Login should be successful
+[2026-07-06T02:46:32.528Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:46:32.532Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:46:32.531Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:46:32.533Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:46:34.001Z]INFO-Myaccount button click
+[2026-07-06T02:46:34.005Z]INFO-Clicking:locator('i.fa.fa-user')
+[2026-07-06T02:46:34.103Z]INFO-login click
+[2026-07-06T02:46:34.104Z]INFO-Clicking:getByRole('link', { name: 'Login' })
+[2026-07-06T02:46:34.320Z]INFO-Myaccount button click
+[2026-07-06T02:46:34.324Z]INFO-Clicking:locator('i.fa.fa-user')
+[2026-07-06T02:46:34.372Z]INFO-Filling:getByRole('textbox', { name: 'E-Mail Address' })=>{value}
+[2026-07-06T02:46:34.409Z]INFO-Filling:getByRole('textbox', { name: 'Password' })=>{value}
+[2026-07-06T02:46:34.411Z]INFO-login click
+[2026-07-06T02:46:34.413Z]INFO-Clicking:getByRole('link', { name: 'Login' })
+[2026-07-06T02:46:34.453Z]INFO-Clicking:locator('input.btn.btn-primary')
+[2026-07-06T02:46:34.641Z]INFO-Filling:getByRole('textbox', { name: 'E-Mail Address' })=>{value}
+[2026-07-06T02:46:34.685Z]INFO-Filling:getByRole('textbox', { name: 'Password' })=>{value}
+[2026-07-06T02:46:34.700Z]INFO-Clicking:locator('input.btn.btn-primary')
+[2026-07-06T02:46:35.904Z]INFO-Starting Scenario: User should register successfully
+[2026-07-06T02:46:35.908Z]INFO-Starting Scenario: exist user register not successful
+[2026-07-06T02:46:36.052Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:46:36.056Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:46:36.053Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:46:36.056Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:46:37.654Z]INFO-Myaccount button click
+[2026-07-06T02:46:37.655Z]INFO-Myaccount button click
+[2026-07-06T02:46:37.655Z]INFO-Clicking:locator('//span[text()=\'My Account\']')
+[2026-07-06T02:46:37.656Z]INFO-Clicking:locator('//span[text()=\'My Account\']')
+[2026-07-06T02:46:37.731Z]INFO-login click
+[2026-07-06T02:46:37.731Z]INFO-Clicking:locator('//a[text()=\'Register\']')
+[2026-07-06T02:46:37.750Z]INFO-login click
+[2026-07-06T02:46:37.750Z]INFO-Clicking:locator('//a[text()=\'Register\']')
+[2026-07-06T02:46:37.987Z]INFO-Filling:locator('#input-firstname')=>{value}
+[2026-07-06T02:46:38.140Z]INFO-Filling:locator('#input-firstname')=>{value}
+[2026-07-06T02:46:38.219Z]INFO-Filling:locator('#input-lastname')=>{value}
+[2026-07-06T02:46:38.233Z]INFO-Filling:locator('#input-email')=>{value}
+[2026-07-06T02:46:38.248Z]INFO-Filling:locator('#input-telephone')=>{value}
+[2026-07-06T02:46:38.262Z]INFO-Filling:locator('#input-password')=>{value}
+[2026-07-06T02:46:38.275Z]INFO-Filling:locator('#input-confirm')=>{value}
+[2026-07-06T02:46:38.356Z]INFO-Clicking:locator('input[value=\'Continue\']')
+[2026-07-06T02:46:38.369Z]INFO-Filling:locator('#input-lastname')=>{value}
+[2026-07-06T02:46:38.386Z]INFO-Filling:locator('#input-email')=>{value}
+[2026-07-06T02:46:38.400Z]INFO-Filling:locator('#input-telephone')=>{value}
+[2026-07-06T02:46:38.417Z]INFO-Filling:locator('#input-password')=>{value}
+[2026-07-06T02:46:38.433Z]INFO-Filling:locator('#input-confirm')=>{value}
+[2026-07-06T02:46:38.506Z]INFO-Clicking:locator('input[value=\'Continue\']')
+[2026-07-06T02:46:40.229Z]INFO-Closing browser
+[2026-07-06T02:46:40.229Z]INFO-Closing browser
+[2026-07-06T02:53:36.816Z]INFO-Launching browser
+[2026-07-06T02:53:36.816Z]INFO-Launching browser
+[2026-07-06T02:53:37.225Z]INFO-Starting Scenario: Login should not be successful
+[2026-07-06T02:53:37.225Z]INFO-Starting Scenario: Login should be successful
+[2026-07-06T02:53:37.408Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:53:37.409Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:53:37.431Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:53:37.431Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:53:38.616Z]INFO-Myaccount button click
+[2026-07-06T02:53:38.621Z]INFO-Clicking:locator('i.fa.fa-user')
+[2026-07-06T02:53:38.712Z]INFO-login click
+[2026-07-06T02:53:38.713Z]INFO-Clicking:getByRole('link', { name: 'Login' })
+[2026-07-06T02:53:38.927Z]INFO-Myaccount button click
+[2026-07-06T02:53:38.934Z]INFO-Clicking:locator('i.fa.fa-user')
+[2026-07-06T02:53:38.942Z]INFO-Filling:getByRole('textbox', { name: 'E-Mail Address' })=>{value}
+[2026-07-06T02:53:38.982Z]INFO-Filling:getByRole('textbox', { name: 'Password' })=>{value}
+[2026-07-06T02:53:38.998Z]INFO-Clicking:locator('input.btn.btn-primary')
+[2026-07-06T02:53:39.022Z]INFO-login click
+[2026-07-06T02:53:39.024Z]INFO-Clicking:getByRole('link', { name: 'Login' })
+[2026-07-06T02:53:39.559Z]INFO-Filling:getByRole('textbox', { name: 'E-Mail Address' })=>{value}
+[2026-07-06T02:53:39.599Z]INFO-Filling:getByRole('textbox', { name: 'Password' })=>{value}
+[2026-07-06T02:53:39.613Z]INFO-Clicking:locator('input.btn.btn-primary')
+[2026-07-06T02:53:40.311Z]INFO-Starting Scenario: User should register successfully
+[2026-07-06T02:53:40.438Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:53:40.439Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:53:40.482Z]INFO-Starting Scenario: exist user register not successful
+[2026-07-06T02:53:40.598Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:53:40.599Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:53:41.459Z]INFO-Myaccount button click
+[2026-07-06T02:53:41.459Z]INFO-Clicking:locator('//span[text()=\'My Account\']')
+[2026-07-06T02:53:41.548Z]INFO-login click
+[2026-07-06T02:53:41.549Z]INFO-Clicking:locator('//a[text()=\'Register\']')
+[2026-07-06T02:53:41.726Z]INFO-Myaccount button click
+[2026-07-06T02:53:41.727Z]INFO-Clicking:locator('//span[text()=\'My Account\']')
+[2026-07-06T02:53:41.754Z]INFO-Filling:locator('#input-firstname')=>{value}
+[2026-07-06T02:53:41.830Z]INFO-login click
+[2026-07-06T02:53:41.831Z]INFO-Clicking:locator('//a[text()=\'Register\']')
+[2026-07-06T02:53:41.892Z]INFO-Filling:locator('#input-lastname')=>{value}
+[2026-07-06T02:53:41.906Z]INFO-Filling:locator('#input-email')=>{value}
+[2026-07-06T02:53:41.919Z]INFO-Filling:locator('#input-telephone')=>{value}
+[2026-07-06T02:53:41.935Z]INFO-Filling:locator('#input-password')=>{value}
+[2026-07-06T02:53:41.948Z]INFO-Filling:locator('#input-confirm')=>{value}
+[2026-07-06T02:53:42.017Z]INFO-Clicking:locator('input[value=\'Continue\']')
+[2026-07-06T02:53:42.024Z]INFO-Filling:locator('#input-firstname')=>{value}
+[2026-07-06T02:53:42.151Z]INFO-Filling:locator('#input-lastname')=>{value}
+[2026-07-06T02:53:42.168Z]INFO-Filling:locator('#input-email')=>{value}
+[2026-07-06T02:53:42.186Z]INFO-Filling:locator('#input-telephone')=>{value}
+[2026-07-06T02:53:42.200Z]INFO-Filling:locator('#input-password')=>{value}
+[2026-07-06T02:53:42.216Z]INFO-Filling:locator('#input-confirm')=>{value}
+[2026-07-06T02:53:42.299Z]INFO-Clicking:locator('input[value=\'Continue\']')
+[2026-07-06T02:53:43.214Z]INFO-Closing browser
+[2026-07-06T02:53:43.214Z]INFO-Closing browser
+[2026-07-06T02:56:10.264Z]INFO-Launching browser
+[2026-07-06T02:56:10.261Z]INFO-Launching browser
+[2026-07-06T02:56:10.773Z]INFO-Starting Scenario: Login should not be successful
+[2026-07-06T02:56:10.773Z]INFO-Starting Scenario: Login should be successful
+[2026-07-06T02:56:10.961Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:56:10.961Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:56:10.971Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:56:10.972Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:56:12.254Z]INFO-Myaccount button click
+[2026-07-06T02:56:12.258Z]INFO-Clicking:locator('i.fa.fa-user')
+[2026-07-06T02:56:12.347Z]INFO-login click
+[2026-07-06T02:56:12.349Z]INFO-Clicking:getByRole('link', { name: 'Login' })
+[2026-07-06T02:56:12.431Z]INFO-Myaccount button click
+[2026-07-06T02:56:12.438Z]INFO-Clicking:locator('i.fa.fa-user')
+[2026-07-06T02:56:12.530Z]INFO-login click
+[2026-07-06T02:56:12.532Z]INFO-Clicking:getByRole('link', { name: 'Login' })
+[2026-07-06T02:56:12.638Z]INFO-Filling:getByRole('textbox', { name: 'E-Mail Address' })=>{value}
+[2026-07-06T02:56:12.671Z]INFO-Filling:getByRole('textbox', { name: 'Password' })=>{value}
+[2026-07-06T02:56:12.698Z]INFO-Clicking:locator('input.btn.btn-primary')
+[2026-07-06T02:56:12.808Z]INFO-Filling:getByRole('textbox', { name: 'E-Mail Address' })=>{value}
+[2026-07-06T02:56:12.849Z]INFO-Filling:getByRole('textbox', { name: 'Password' })=>{value}
+[2026-07-06T02:56:12.872Z]INFO-Clicking:locator('input.btn.btn-primary')
+[2026-07-06T02:56:14.670Z]INFO-Starting Scenario: User should register successfully
+[2026-07-06T02:56:14.779Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:56:14.779Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:56:14.849Z]INFO-Starting Scenario: exist user register not successful
+[2026-07-06T02:56:14.952Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:56:14.953Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:56:16.006Z]INFO-Myaccount button click
+[2026-07-06T02:56:16.006Z]INFO-Clicking:locator('//span[text()=\'My Account\']')
+[2026-07-06T02:56:16.092Z]INFO-login click
+[2026-07-06T02:56:16.092Z]INFO-Clicking:locator('//a[text()=\'Register\']')
+[2026-07-06T02:56:16.324Z]INFO-Filling:locator('#input-firstname')=>{value}
+[2026-07-06T02:56:16.328Z]INFO-Myaccount button click
+[2026-07-06T02:56:16.328Z]INFO-Clicking:locator('//span[text()=\'My Account\']')
+[2026-07-06T02:56:16.429Z]INFO-login click
+[2026-07-06T02:56:16.429Z]INFO-Clicking:locator('//a[text()=\'Register\']')
+[2026-07-06T02:56:16.446Z]INFO-Filling:locator('#input-lastname')=>{value}
+[2026-07-06T02:56:16.464Z]INFO-Filling:locator('#input-email')=>{value}
+[2026-07-06T02:56:16.481Z]INFO-Filling:locator('#input-telephone')=>{value}
+[2026-07-06T02:56:16.498Z]INFO-Filling:locator('#input-password')=>{value}
+[2026-07-06T02:56:16.512Z]INFO-Filling:locator('#input-confirm')=>{value}
+[2026-07-06T02:56:16.589Z]INFO-Clicking:locator('input[value=\'Continue\']')
+[2026-07-06T02:56:16.630Z]INFO-Filling:locator('#input-firstname')=>{value}
+[2026-07-06T02:56:16.874Z]INFO-Filling:locator('#input-lastname')=>{value}
+[2026-07-06T02:56:16.893Z]INFO-Filling:locator('#input-email')=>{value}
+[2026-07-06T02:56:16.919Z]INFO-Filling:locator('#input-telephone')=>{value}
+[2026-07-06T02:56:16.932Z]INFO-Filling:locator('#input-password')=>{value}
+[2026-07-06T02:56:16.944Z]INFO-Filling:locator('#input-confirm')=>{value}
+[2026-07-06T02:56:17.031Z]INFO-Clicking:locator('input[value=\'Continue\']')
+[2026-07-06T02:56:18.513Z]INFO-Closing browser
+[2026-07-06T02:56:18.513Z]INFO-Closing browser
+[2026-07-06T02:58:18.488Z]INFO-Launching browser
+[2026-07-06T02:58:18.488Z]INFO-Launching browser
+[2026-07-06T02:58:19.250Z]INFO-Starting Scenario: Login should not be successful
+[2026-07-06T02:58:19.251Z]INFO-Starting Scenario: Login should be successful
+[2026-07-06T02:58:19.515Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:58:19.538Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:58:19.521Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:58:19.548Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:58:20.904Z]INFO-Myaccount button click
+[2026-07-06T02:58:20.912Z]INFO-Clicking:locator('i.fa.fa-user')
+[2026-07-06T02:58:21.014Z]INFO-login click
+[2026-07-06T02:58:21.017Z]INFO-Clicking:getByRole('link', { name: 'Login' })
+[2026-07-06T02:58:21.019Z]INFO-Myaccount button click
+[2026-07-06T02:58:21.027Z]INFO-Clicking:locator('i.fa.fa-user')
+[2026-07-06T02:58:21.133Z]INFO-login click
+[2026-07-06T02:58:21.136Z]INFO-Clicking:getByRole('link', { name: 'Login' })
+[2026-07-06T02:58:21.254Z]INFO-Filling:getByRole('textbox', { name: 'E-Mail Address' })=>{value}
+[2026-07-06T02:58:21.304Z]INFO-Filling:getByRole('textbox', { name: 'Password' })=>{value}
+[2026-07-06T02:58:21.334Z]INFO-Clicking:locator('input.btn.btn-primary')
+[2026-07-06T02:58:21.382Z]INFO-Filling:getByRole('textbox', { name: 'E-Mail Address' })=>{value}
+[2026-07-06T02:58:21.432Z]INFO-Filling:getByRole('textbox', { name: 'Password' })=>{value}
+[2026-07-06T02:58:21.462Z]INFO-Clicking:locator('input.btn.btn-primary')
+[2026-07-06T02:58:22.741Z]INFO-Starting Scenario: User should register successfully
+[2026-07-06T02:58:22.950Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:58:22.950Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:58:23.018Z]INFO-Starting Scenario: exist user register not successful
+[2026-07-06T02:58:23.221Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:58:23.221Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:58:24.118Z]INFO-Myaccount button click
+[2026-07-06T02:58:24.120Z]INFO-Clicking:locator('//span[text()=\'My Account\']')
+[2026-07-06T02:58:24.238Z]INFO-login click
+[2026-07-06T02:58:24.239Z]INFO-Clicking:locator('//a[text()=\'Register\']')
+[2026-07-06T02:58:24.316Z]INFO-Myaccount button click
+[2026-07-06T02:58:24.317Z]INFO-Clicking:locator('//span[text()=\'My Account\']')
+[2026-07-06T02:58:24.415Z]INFO-login click
+[2026-07-06T02:58:24.416Z]INFO-Clicking:locator('//a[text()=\'Register\']')
+[2026-07-06T02:58:24.530Z]INFO-Filling:locator('#input-firstname')=>{value}
+[2026-07-06T02:58:24.688Z]INFO-Filling:locator('#input-lastname')=>{value}
+[2026-07-06T02:58:24.721Z]INFO-Filling:locator('#input-firstname')=>{value}
+[2026-07-06T02:58:24.778Z]INFO-Filling:locator('#input-email')=>{value}
+[2026-07-06T02:58:24.820Z]INFO-Filling:locator('#input-telephone')=>{value}
+[2026-07-06T02:58:24.864Z]INFO-Filling:locator('#input-lastname')=>{value}
+[2026-07-06T02:58:24.866Z]INFO-Filling:locator('#input-password')=>{value}
+[2026-07-06T02:58:24.907Z]INFO-Filling:locator('#input-confirm')=>{value}
+[2026-07-06T02:58:24.910Z]INFO-Filling:locator('#input-email')=>{value}
+[2026-07-06T02:58:24.954Z]INFO-Filling:locator('#input-telephone')=>{value}
+[2026-07-06T02:58:24.994Z]INFO-Filling:locator('#input-password')=>{value}
+[2026-07-06T02:58:25.030Z]INFO-Filling:locator('#input-confirm')=>{value}
+[2026-07-06T02:58:25.033Z]INFO-Clicking:locator('input[value=\'Continue\']')
+[2026-07-06T02:58:25.154Z]INFO-Clicking:locator('input[value=\'Continue\']')
+[2026-07-06T02:58:26.672Z]INFO-Closing browser
+[2026-07-06T02:58:26.672Z]INFO-Closing browser
+[2026-07-06T02:59:53.255Z]INFO-Launching browser
+[2026-07-06T02:59:53.255Z]INFO-Launching browser
+[2026-07-06T02:59:53.726Z]INFO-Starting Scenario: Login should be successful
+[2026-07-06T02:59:53.727Z]INFO-Starting Scenario: Login should not be successful
+[2026-07-06T02:59:53.927Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:59:53.927Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T02:59:53.927Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:59:53.927Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T02:59:55.190Z]INFO-Myaccount button click
+[2026-07-06T02:59:55.195Z]INFO-Clicking:locator('i.fa.fa-user')
+[2026-07-06T02:59:55.282Z]INFO-login click
+[2026-07-06T02:59:55.284Z]INFO-Clicking:getByRole('link', { name: 'Login' })
+[2026-07-06T02:59:55.451Z]INFO-Myaccount button click
+[2026-07-06T02:59:55.461Z]INFO-Clicking:locator('i.fa.fa-user')
+[2026-07-06T02:59:55.583Z]INFO-login click
+[2026-07-06T02:59:55.586Z]INFO-Clicking:getByRole('link', { name: 'Login' })
+[2026-07-06T02:59:56.277Z]INFO-Filling:getByRole('textbox', { name: 'E-Mail Address' })=>{value}
+[2026-07-06T02:59:56.306Z]INFO-Filling:getByRole('textbox', { name: 'Password' })=>{value}
+[2026-07-06T02:59:56.323Z]INFO-Clicking:locator('input.btn.btn-primary')
+[2026-07-06T02:59:56.904Z]INFO-Filling:getByRole('textbox', { name: 'E-Mail Address' })=>{value}
+[2026-07-06T02:59:56.932Z]INFO-Filling:getByRole('textbox', { name: 'Password' })=>{value}
+[2026-07-06T02:59:56.948Z]INFO-Clicking:locator('input.btn.btn-primary')
+[2026-07-06T03:00:01.348Z]INFO-Starting Scenario: User should register successfully
+[2026-07-06T03:00:01.451Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T03:00:01.452Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T03:00:01.768Z]INFO-Starting Scenario: exist user register not successful
+[2026-07-06T03:00:01.880Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T03:00:01.881Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T03:00:03.232Z]INFO-Myaccount button click
+[2026-07-06T03:00:03.232Z]INFO-Clicking:locator('//span[text()=\'My Account\']')
+[2026-07-06T03:00:03.308Z]INFO-login click
+[2026-07-06T03:00:03.308Z]INFO-Clicking:locator('//a[text()=\'Register\']')
+[2026-07-06T03:00:03.542Z]INFO-Myaccount button click
+[2026-07-06T03:00:03.542Z]INFO-Clicking:locator('//span[text()=\'My Account\']')
+[2026-07-06T03:00:03.629Z]INFO-login click
+[2026-07-06T03:00:03.629Z]INFO-Clicking:locator('//a[text()=\'Register\']')
+[2026-07-06T03:00:04.164Z]INFO-Filling:locator('#input-firstname')=>{value}
+[2026-07-06T03:00:04.165Z]INFO-Filling:locator('#input-firstname')=>{value}
+[2026-07-06T03:00:04.384Z]INFO-Filling:locator('#input-lastname')=>{value}
+[2026-07-06T03:00:04.402Z]INFO-Filling:locator('#input-lastname')=>{value}
+[2026-07-06T03:00:04.402Z]INFO-Filling:locator('#input-email')=>{value}
+[2026-07-06T03:00:04.419Z]INFO-Filling:locator('#input-email')=>{value}
+[2026-07-06T03:00:04.420Z]INFO-Filling:locator('#input-telephone')=>{value}
+[2026-07-06T03:00:04.439Z]INFO-Filling:locator('#input-telephone')=>{value}
+[2026-07-06T03:00:04.441Z]INFO-Filling:locator('#input-password')=>{value}
+[2026-07-06T03:00:04.461Z]INFO-Filling:locator('#input-confirm')=>{value}
+[2026-07-06T03:00:04.462Z]INFO-Filling:locator('#input-password')=>{value}
+[2026-07-06T03:00:04.476Z]INFO-Filling:locator('#input-confirm')=>{value}
+[2026-07-06T03:00:04.517Z]INFO-Clicking:locator('input[value=\'Continue\']')
+[2026-07-06T03:00:04.536Z]INFO-Clicking:locator('input[value=\'Continue\']')
+[2026-07-06T03:00:08.030Z]INFO-Closing browser
+[2026-07-06T03:00:08.030Z]INFO-Closing browser
+[2026-07-06T03:18:56.491Z]INFO-Launching browser
+[2026-07-06T03:18:56.491Z]INFO-Launching browser
+[2026-07-06T03:18:57.493Z]INFO-Starting Scenario: Login should be successful
+[2026-07-06T03:18:57.493Z]INFO-Starting Scenario: Login should not be successful
+[2026-07-06T03:18:57.756Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T03:18:57.757Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T03:18:57.775Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T03:18:57.776Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T03:19:08.425Z]INFO-Myaccount button click
+[2026-07-06T03:19:08.434Z]INFO-Clicking:locator('i.fa.fa-user')
+[2026-07-06T03:19:08.664Z]INFO-login click
+[2026-07-06T03:19:08.667Z]INFO-Clicking:getByRole('link', { name: 'Login' })
+[2026-07-06T03:19:12.419Z]INFO-Filling:getByRole('textbox', { name: 'E-Mail Address' })=>{value}
+[2026-07-06T03:19:12.517Z]INFO-Filling:getByRole('textbox', { name: 'Password' })=>{value}
+[2026-07-06T03:19:12.560Z]INFO-Clicking:locator('input.btn.btn-primary')
+[2026-07-06T03:19:19.071Z]INFO-Myaccount button click
+[2026-07-06T03:19:19.077Z]INFO-Clicking:locator('i.fa.fa-user')
+[2026-07-06T03:19:19.293Z]INFO-login click
+[2026-07-06T03:19:19.295Z]INFO-Clicking:getByRole('link', { name: 'Login' })
+[2026-07-06T03:19:20.205Z]INFO-Filling:getByRole('textbox', { name: 'E-Mail Address' })=>{value}
+[2026-07-06T03:19:20.301Z]INFO-Filling:getByRole('textbox', { name: 'Password' })=>{value}
+[2026-07-06T03:19:20.348Z]INFO-Clicking:locator('input.btn.btn-primary')
+[2026-07-06T03:19:21.679Z]ERROR-Scenario FAILED: Login should be successful
+[2026-07-06T03:19:21.768Z]INFO-Starting Scenario: User should register successfully
+[2026-07-06T03:19:22.028Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T03:19:22.028Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T03:19:47.637Z]INFO-Myaccount button click
+[2026-07-06T03:19:47.638Z]INFO-Clicking:locator('//span[text()=\'My Account\']')
+[2026-07-06T03:19:47.826Z]INFO-login click
+[2026-07-06T03:19:47.827Z]INFO-Clicking:locator('//a[text()=\'Register\']')
+[2026-07-06T03:19:52.339Z]INFO-Filling:locator('#input-firstname')=>{value}
+[2026-07-06T03:19:54.836Z]INFO-Filling:locator('#input-lastname')=>{value}
+[2026-07-06T03:19:54.866Z]INFO-Filling:locator('#input-email')=>{value}
+[2026-07-06T03:19:54.894Z]INFO-Filling:locator('#input-telephone')=>{value}
+[2026-07-06T03:19:54.921Z]INFO-Filling:locator('#input-password')=>{value}
+[2026-07-06T03:19:54.951Z]INFO-Filling:locator('#input-confirm')=>{value}
+[2026-07-06T03:19:55.075Z]INFO-Clicking:locator('input[value=\'Continue\']')
+[2026-07-06T03:19:59.246Z]INFO-Starting Scenario: exist user register not successful
+[2026-07-06T03:19:59.516Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T03:19:59.516Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T03:20:09.043Z]ERROR-Scenario FAILED: Login should not be successful
+[2026-07-06T03:20:22.175Z]INFO-Myaccount button click
+[2026-07-06T03:20:22.176Z]INFO-Clicking:locator('//span[text()=\'My Account\']')
+[2026-07-06T03:20:22.315Z]INFO-login click
+[2026-07-06T03:20:22.316Z]INFO-Clicking:locator('//a[text()=\'Register\']')
+[2026-07-06T03:20:24.516Z]INFO-Filling:locator('#input-firstname')=>{value}
+[2026-07-06T03:20:28.038Z]INFO-Filling:locator('#input-lastname')=>{value}
+[2026-07-06T03:20:28.074Z]INFO-Filling:locator('#input-email')=>{value}
+[2026-07-06T03:20:28.129Z]INFO-Filling:locator('#input-telephone')=>{value}
+[2026-07-06T03:20:28.192Z]INFO-Filling:locator('#input-password')=>{value}
+[2026-07-06T03:20:28.225Z]INFO-Filling:locator('#input-confirm')=>{value}
+[2026-07-06T03:20:28.337Z]INFO-Clicking:locator('input[value=\'Continue\']')
+[2026-07-06T03:20:39.271Z]ERROR-Scenario FAILED: exist user register not successful
+[2026-07-06T03:20:39.382Z]INFO-Closing browser
+[2026-07-06T03:20:39.382Z]INFO-Closing browser
+[2026-07-06T03:43:46.397Z]INFO-Launching browser
+[2026-07-06T03:43:46.397Z]INFO-Launching browser
+[2026-07-06T03:43:47.124Z]INFO-Starting Scenario: Login should be successful
+[2026-07-06T03:43:47.124Z]INFO-Starting Scenario: Login should not be successful
+[2026-07-06T03:43:47.455Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T03:43:47.458Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T03:43:47.456Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T03:43:47.459Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T03:43:49.491Z]INFO-Myaccount button click
+[2026-07-06T03:43:49.496Z]INFO-Clicking:locator('i.fa.fa-user')
+[2026-07-06T03:43:49.616Z]INFO-Myaccount button click
+[2026-07-06T03:43:49.620Z]INFO-Clicking:locator('i.fa.fa-user')
+[2026-07-06T03:43:49.703Z]INFO-login click
+[2026-07-06T03:43:49.704Z]INFO-Clicking:getByRole('link', { name: 'Login' })
+[2026-07-06T03:43:49.797Z]INFO-login click
+[2026-07-06T03:43:49.798Z]INFO-Clicking:getByRole('link', { name: 'Login' })
+[2026-07-06T03:43:49.985Z]INFO-Filling:getByRole('textbox', { name: 'E-Mail Address' })=>{value}
+[2026-07-06T03:43:50.056Z]INFO-Filling:getByRole('textbox', { name: 'Password' })=>{value}
+[2026-07-06T03:43:50.077Z]INFO-Filling:getByRole('textbox', { name: 'E-Mail Address' })=>{value}
+[2026-07-06T03:43:50.080Z]INFO-Clicking:locator('input.btn.btn-primary')
+[2026-07-06T03:43:50.125Z]INFO-Filling:getByRole('textbox', { name: 'Password' })=>{value}
+[2026-07-06T03:43:50.140Z]INFO-Clicking:locator('input.btn.btn-primary')
+[2026-07-06T03:43:51.422Z]INFO-Starting Scenario: User should register successfully
+[2026-07-06T03:43:51.715Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T03:43:51.715Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T03:43:52.198Z]INFO-Starting Scenario: exist user register not successful
+[2026-07-06T03:43:52.448Z]INFO-Navigating to TutorialsNinja
+[2026-07-06T03:43:52.448Z]INFO-Navigate to : https://tutorialsninja.com/demo/
+[2026-07-06T03:43:54.496Z]INFO-Myaccount button click
+[2026-07-06T03:43:54.497Z]INFO-Clicking:locator('//span[text()=\'My Account\']')
+[2026-07-06T03:43:54.632Z]INFO-login click
+[2026-07-06T03:43:54.633Z]INFO-Clicking:locator('//a[text()=\'Register\']')
+[2026-07-06T03:43:54.862Z]INFO-Filling:locator('#input-firstname')=>{value}
+[2026-07-06T03:43:55.146Z]INFO-Filling:locator('#input-lastname')=>{value}
+[2026-07-06T03:43:55.186Z]INFO-Filling:locator('#input-email')=>{value}
+[2026-07-06T03:43:55.222Z]INFO-Filling:locator('#input-telephone')=>{value}
+[2026-07-06T03:43:55.246Z]INFO-Filling:locator('#input-password')=>{value}
+[2026-07-06T03:43:55.286Z]INFO-Filling:locator('#input-confirm')=>{value}
+[2026-07-06T03:43:55.378Z]INFO-Clicking:locator('input[value=\'Continue\']')
+[2026-07-06T03:43:55.810Z]INFO-Myaccount button click
+[2026-07-06T03:43:55.810Z]INFO-Clicking:locator('//span[text()=\'My Account\']')
+[2026-07-06T03:43:55.915Z]INFO-login click
+[2026-07-06T03:43:55.916Z]INFO-Clicking:locator('//a[text()=\'Register\']')
+[2026-07-06T03:43:56.158Z]INFO-Filling:locator('#input-firstname')=>{value}
+[2026-07-06T03:43:56.569Z]INFO-Filling:locator('#input-lastname')=>{value}
+[2026-07-06T03:43:56.593Z]INFO-Filling:locator('#input-email')=>{value}
+[2026-07-06T03:43:56.634Z]INFO-Filling:locator('#input-telephone')=>{value}
+[2026-07-06T03:43:56.679Z]INFO-Filling:locator('#input-password')=>{value}
+[2026-07-06T03:43:56.715Z]INFO-Filling:locator('#input-confirm')=>{value}
+[2026-07-06T03:43:56.832Z]INFO-Clicking:locator('input[value=\'Continue\']')
+[2026-07-06T03:43:57.448Z]INFO-Closing browser
+[2026-07-06T03:43:57.449Z]INFO-Closing browser
