@@ -1,0 +1,26 @@
+import { Locator,Page } from "@playwright/test";
+export class Basepage {
+    readonly page : Page
+    constructor(page:Page)
+    {
+        this.page = page
+    }
+    async click(locator: Locator) {
+        await locator.click();
+    }
+    async fillInput(locator: Locator, value: string) {
+        await locator.fill(value);
+    }
+    async launchapplication(url: string) {
+        await this.page.goto(url);
+    }
+    async checkbox(locator: Locator) {
+        await locator.check();
+    } 
+    async getText(locator: Locator)  {
+        return await locator.innerText();
+    }
+    async getAllTextContents(locator: Locator){
+        return await locator.allTextContents();
+    }
+}

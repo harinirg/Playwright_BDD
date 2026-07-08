@@ -1,0 +1,328 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-login;validate-login-with-multiple-credentials",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Validate login with multiple credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 195756899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user launched the Application",
+            "match": {
+              "location": "src\\test\\steps\\Loginstep.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4700659799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user click to the Login link",
+            "match": {
+              "location": "src\\test\\steps\\Loginstep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1744102600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user enters \"harinirg26@gmail.com\" and \"Harini@26\"",
+            "match": {
+              "location": "src\\test\\steps\\Loginstep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72384799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user clicks the Login button",
+            "match": {
+              "location": "src\\test\\steps\\Loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 727010499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the login result should be \"success\"",
+            "match": {
+              "location": "src\\test\\steps\\Loginstep.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63774799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 81262300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-login;validate-login-with-multiple-credentials",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Validate login with multiple credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 264861899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user launched the Application",
+            "match": {
+              "location": "src\\test\\steps\\Loginstep.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4191970000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user click to the Login link",
+            "match": {
+              "location": "src\\test\\steps\\Loginstep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 619616499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user enters \"wrong@gmail.com\" and \"wrong@123\"",
+            "match": {
+              "location": "src\\test\\steps\\Loginstep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102905500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user clicks the Login button",
+            "match": {
+              "location": "src\\test\\steps\\Loginstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 393386599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the login result should be \"failure\"",
+            "match": {
+              "location": "src\\test\\steps\\Loginstep.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 215289400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 62777399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Login",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-registration;register-a-new-user-successfully-using-csv-data",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Register a new user successfully using CSV data",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 250391299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user is launched the url",
+            "match": {
+              "location": "src\\test\\steps\\Registerstep.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3566957199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "the user clicks on the register button",
+            "match": {
+              "location": "src\\test\\steps\\Registerstep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 565438200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user select the gender",
+            "match": {
+              "location": "src\\test\\steps\\Registerstep.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60766199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user enters the registration details",
+            "match": {
+              "location": "src\\test\\steps\\Registerstep.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 148566800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user clicks the Register button",
+            "match": {
+              "location": "src\\test\\steps\\Registerstep.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 947852700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the user should be registered successfully",
+            "match": {
+              "location": "src\\test\\steps\\Registerstep.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 521057099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 66952799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-registration",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Registration",
+    "tags": [],
+    "uri": "src\\test\\features\\register.feature"
+  }
+]
